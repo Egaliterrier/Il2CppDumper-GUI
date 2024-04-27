@@ -26,3 +26,7 @@ jobs:
         
       - name: Build the Solution
         run: msbuild Il2CppDumper.sln
+        
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.3.3
+
